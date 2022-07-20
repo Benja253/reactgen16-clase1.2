@@ -1,0 +1,41 @@
+.App {
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.list {
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+.list1 {
+  background-color: blueviolet;
+}
+.list2 {
+  background-color:brown;
+}
+.list3 {
+  background-color:darkblue;
+}
+.list4 {
+  background-color:olive;
+}
+
+.list__items {
+  font-size: 25px;
+}
